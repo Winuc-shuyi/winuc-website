@@ -8,8 +8,20 @@
   ],
   "routes": [
     {
+      "src": "/projects/[^/]+/?$",
+      "dest": "/projects/$1/index.html"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/index.html"
+      "dest": "/$1"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/(.*)",
+      "status": 404,
+      "dest": "/404.html"
     }
   ],
   "headers": {
