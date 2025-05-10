@@ -2,8 +2,9 @@
   "version": 1,
   "include": ["/*"],
   "exclude": [
-    "/build/*",
-    "/api/*"
+    "/_next/*",
+    "/api/*",
+    "/static/*"
   ],
   "routes": [
     {

@@ -10,8 +10,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "wrangler pages deploy .next --branch production",
-    "deploy:preview": "wrangler pages deploy .next --branch preview"
+    "deploy": "wrangler pages deploy out --branch production",
+    "deploy:preview": "wrangler pages deploy out --branch preview"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",
