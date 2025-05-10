@@ -1,0 +1,15 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#EFF6FF"/>
+  <path d="M600 200C652.5 200 695 242.5 695 295C695 347.5 652.5 390 600 390C547.5 390 505 347.5 505 295C505 242.5 547.5 200 600 200ZM600 415C700 415 780 455 780 505V525H420V505C420 455 500 415 600 415Z" fill="#3B82F6"/>
+  <text x="600" y="620" font-family="Arial" font-size="42" text-anchor="middle" font-weight="bold" fill="#1E3A8A">智能数据分析平台</text>
+  <text x="600" y="680" font-family="Arial" font-size="24" text-anchor="middle" fill="#1E3A8A">让数据洞察触手可及</text>
+  
+  <rect x="300" y="720" width="200" height="40" rx="8" fill="#60A5FA"/>
+  <text x="400" y="747" font-family="Arial" font-size="18" text-anchor="middle" fill="white">决策效率提升 300%</text>
+  
+  <rect x="520" y="720" width="200" height="40" rx="8" fill="#60A5FA"/>
+  <text x="620" y="747" font-family="Arial" font-size="18" text-anchor="middle" fill="white">数据处理时间减少 65%</text>
+  
+  <rect x="740" y="720" width="160" height="40" rx="8" fill="#60A5FA"/>
+  <text x="820" y="747" font-family="Arial" font-size="18" text-anchor="middle" fill="white">10+ 行业应用</text>
+</svg> 

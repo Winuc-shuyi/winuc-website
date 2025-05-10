@@ -1,0 +1,48 @@
+{
+  "members": [
+    {
+      "id": "member1",
+      "name": "张三",
+      "role": "创始人 & CEO",
+      "bio": "十年互联网产品经验，曾任职于多家知名科技公司",
+      "avatar": "/images/team/member1.jpg",
+      "socialLinks": {
+        "github": "https://github.com/zhangsan",
+        "linkedin": "https://linkedin.com/in/zhangsan"
+      }
+    },
+    {
+      "id": "member2",
+      "name": "李四",
+      "role": "首席技术官",
+      "bio": "全栈开发工程师，专注于Web技术和云服务架构",
+      "avatar": "/images/team/member2.jpg",
+      "socialLinks": {
+        "github": "https://github.com/lisi",
+        "linkedin": "https://linkedin.com/in/lisi"
+      }
+    },
+    {
+      "id": "member3",
+      "name": "王五",
+      "role": "UI/UX 设计师",
+      "bio": "拥有丰富的用户界面设计经验，注重用户体验和交互设计",
+      "avatar": "/images/team/member3.jpg",
+      "socialLinks": {
+        "dribbble": "https://dribbble.com/wangwu",
+        "linkedin": "https://linkedin.com/in/wangwu"
+      }
+    },
+    {
+      "id": "member4",
+      "name": "赵六",
+      "role": "市场总监",
+      "bio": "资深市场营销专家，擅长品牌策划和市场拓展",
+      "avatar": "/images/team/member4.jpg",
+      "socialLinks": {
+        "twitter": "https://twitter.com/zhaoliu",
+        "linkedin": "https://linkedin.com/in/zhaoliu"
+      }
+    }
+  ]
+}

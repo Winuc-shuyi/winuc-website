@@ -1,0 +1,7 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#ECFDF5"/>
+  <rect x="100" y="100" width="600" height="400" rx="8" fill="#D1FAE5"/>
+  <rect x="150" y="200" width="500" height="200" rx="4" fill="#34D399"/>
+  <text x="400" y="305" font-family="Arial" font-size="24" text-anchor="middle" fill="white">项目截图 3</text>
+  <text x="400" y="350" font-family="Arial" font-size="18" text-anchor="middle" fill="white">用户案例展示</text>
+</svg> 

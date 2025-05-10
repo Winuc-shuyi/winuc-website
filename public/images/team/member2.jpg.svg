@@ -1,0 +1,6 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#FEF3C7"/>
+  <circle cx="200" cy="150" r="70" fill="#F59E0B"/>
+  <path d="M200 240C266.274 240 320 266.863 320 300V320H80V300C80 266.863 133.726 240 200 240Z" fill="#F59E0B"/>
+  <text x="200" y="370" font-family="Arial" font-size="16" text-anchor="middle" fill="#92400E">李工程师 / 技术负责人</text>
+</svg> 

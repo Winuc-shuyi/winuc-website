@@ -1,0 +1,38 @@
+{
+  "name": "WINUC",
+  "description": "WINUC团队官方网站",
+  "url": "https://winuc.org",
+  "logo": "/images/logo.svg",
+  "socialLinks": {
+    "github": "https://github.com/winuc",
+    "twitter": "https://twitter.com/winuc",
+    "linkedin": "https://linkedin.com/company/winuc"
+  },
+  "contact": {
+    "email": "contact@winuc.org",
+    "phone": "+86 123 4567 8901",
+    "address": "中国北京市海淀区"
+  },
+  "navigation": [
+    {
+      "name": "首页",
+      "path": "/"
+    },
+    {
+      "name": "关于我们",
+      "path": "/about"
+    },
+    {
+      "name": "团队",
+      "path": "/team"
+    },
+    {
+      "name": "项目",
+      "path": "/projects"
+    },
+    {
+      "name": "联系我们",
+      "path": "/contact"
+    }
+  ]
+} 

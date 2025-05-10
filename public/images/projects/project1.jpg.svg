@@ -1,0 +1,6 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#DBEAFE"/>
+  <path d="M400 150C452.5 150 495 192.5 495 245C495 297.5 452.5 340 400 340C347.5 340 305 297.5 305 245C305 192.5 347.5 150 400 150ZM400 365C500 365 580 405 580 455V475H220V455C220 405 300 365 400 365Z" fill="#60A5FA"/>
+  <text x="400" y="520" font-family="Arial" font-size="28" text-anchor="middle" fill="#1E40AF">智能数据分析平台</text>
+  <text x="400" y="560" font-family="Arial" font-size="18" text-anchor="middle" fill="#1E40AF">AI · 大数据 · 数据可视化</text>
+</svg> 

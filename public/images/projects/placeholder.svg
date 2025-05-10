@@ -1,0 +1,5 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#E5E7EB"/>
+  <path d="M400 200C435.346 200 464 228.654 464 264C464 299.346 435.346 328 400 328C364.654 328 336 299.346 336 264C336 228.654 364.654 200 400 200ZM400 344C469.346 344 526 372.654 526 408V424H274V408C274 372.654 330.654 344 400 344Z" fill="#9CA3AF"/>
+  <text x="400" y="500" font-family="Arial" font-size="24" text-anchor="middle" fill="#4B5563">项目图片占位符</text>
+</svg> 
