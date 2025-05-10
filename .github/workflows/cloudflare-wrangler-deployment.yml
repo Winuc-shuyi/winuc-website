@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare Pages (Wrangler CLI)
 
 on:
   push:
@@ -9,7 +9,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    name: Deploy to Cloudflare Pages
+    name: Deploy to Cloudflare Pages using Wrangler CLI
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -29,14 +29,14 @@ jobs:
           NEXT_PUBLIC_CLOUDFLARE_BASE_URL: ${{ secrets.CLOUDFLARE_BASE_URL }}
           NEXT_PUBLIC_SITE_URL: ${{ secrets.SITE_URL }}
 
+      - name: Install Wrangler
+        run: npm install -g wrangler
+
       # 注意：确保在GitHub仓库中设置了以下Secrets:
       # 1. CLOUDFLARE_API_TOKEN - 从Cloudflare控制面板"我的个人资料 > API令牌"中创建
-      # 2. CLOUDFLARE_ACCOUNT_ID - 从Cloudflare控制面板的URL中获取，格式如：https://dash.cloudflare.com/xxxxxxxxxxxxxxxxxxxx
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: s13qITNTVCH8EQCz9Eq71lWPAot8Ivt5TsWP2EIZ
-          accountId: 1b48dc707ed5c77dec3fbbf470d3770e
-          projectName: winuc
-          directory: out
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }} 
+      - name: Deploy to Cloudflare Pages with Wrangler
+        run: |
+          echo "${{ secrets.CLOUDFLARE_API_TOKEN }}" | wrangler login
+          wrangler pages deploy out --project-name=winuc --branch=main
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }} 
