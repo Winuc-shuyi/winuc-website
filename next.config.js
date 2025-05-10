@@ -27,7 +27,7 @@ const nextConfig = {
     };
     return config;
   },
-  // 为Cloudflare Pages优化输出
+  // 为Cloudflare Pages配置静态导出，无需动态路由
   output: 'export',
   // 禁用输出文件跟踪以减小构建大小
   outputFileTracing: false,

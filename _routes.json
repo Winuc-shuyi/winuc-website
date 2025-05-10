@@ -8,10 +8,6 @@
   ],
   "routes": [
     {
-      "src": "/projects/[^/]+/?$",
-      "dest": "/projects/$1/index.html"
-    },
-    {
       "src": "/(.*)",
       "dest": "/$1"
     },
