@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "include": ["/*"],
+  "exclude": [
+    "/build/*",
+    "/api/*"
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "headers": {
+    "cache-control": "public, max-age=14400, s-maxage=14400, stale-while-revalidate=14400"
+  }
+} 

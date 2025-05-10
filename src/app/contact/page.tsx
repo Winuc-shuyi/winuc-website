@@ -191,18 +191,6 @@ export default function ContactPage() {
                   <div className="flex items-start">
                     <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
                       <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                      </svg>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-medium mb-1">电话</h3>
-                      <p className="text-gray-600 dark:text-gray-300">{contactInfo.phone}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="flex-shrink-0 w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center mr-4">
-                      <svg className="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                       </svg>
@@ -251,40 +239,17 @@ export default function ContactPage() {
                 </div>
               </div>
               
-              <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-xl">
-                <h3 className="text-xl font-bold mb-4">工作时间</h3>
-                <ul className="space-y-2">
-                  <li className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">周一至周五:</span>
-                    <span>9:00 - 18:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">周六:</span>
-                    <span>10:00 - 16:00</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span className="text-gray-600 dark:text-gray-400">周日:</span>
-                    <span>休息</span>
-                  </li>
-                </ul>
+              <div>
+                <h2 className="text-2xl font-bold mb-6">我们的位置</h2>
+                <div className="bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden h-80">
+                  {/* 这里可以放置地图组件，例如 Google Maps */}
+                  <div className="w-full h-full flex items-center justify-center text-gray-500 dark:text-gray-400">
+                    <p>地图加载中...</p>
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>
-          
-          {/* 地图区域 */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="mt-20"
-          >
-            <h2 className="text-2xl font-bold mb-6">我们的位置</h2>
-            <div className="w-full h-96 bg-gray-200 dark:bg-gray-700 rounded-xl flex items-center justify-center">
-              <span className="text-gray-500 dark:text-gray-400">
-                这里将显示地图（实际项目中集成地图API）
-              </span>
-            </div>
-          </motion.div>
         </Container>
       </Section>
     </main>

@@ -1,36 +1,28 @@
 {
   "projects": [
     {
-      "id": "project1",
-      "title": "智能数据分析平台",
-      "description": "一个基于人工智能的数据分析平台，帮助企业快速分析和可视化大规模数据。",
-      "image": "/images/projects/project1.jpg",
-      "tags": ["AI", "大数据", "数据可视化"],
-      "link": "/projects/data-analytics"
+      "id": "winuc-chat",
+      "title": "WinucChat",
+      "description": "一款简单的即时通讯软件，支持一对一聊天和群组功能，提供安全加密的通信方式。",
+      "image": "/images/projects/winuc-chat.jpg",
+      "tags": ["即时通讯", "社交", "加密"],
+      "link": "/projects/winuc-chat"
     },
     {
-      "id": "project2",
-      "title": "云端协作工具",
-      "description": "为远程团队设计的实时协作工具，支持文档共享、视频会议和任务管理。",
-      "image": "/images/projects/project2.jpg",
-      "tags": ["SaaS", "协作工具", "远程工作"],
-      "link": "/projects/cloud-collaboration"
+      "id": "winuc-store",
+      "title": "WinucStore",
+      "description": "一个简易的商店平台，支持用户浏览、购买商品，自带PAY支付系统，提供安全便捷的购物体验。",
+      "image": "/images/projects/winuc-store.jpg",
+      "tags": ["电商", "支付系统", "购物"],
+      "link": "/projects/winuc-store"
     },
     {
-      "id": "project3",
-      "title": "智慧城市解决方案",
-      "description": "结合物联网和智能分析的城市管理系统，提升城市运行效率和居民生活质量。",
-      "image": "/images/projects/project3.jpg",
-      "tags": ["IoT", "智慧城市", "可持续发展"],
-      "link": "/projects/smart-city"
-    },
-    {
-      "id": "project4",
-      "title": "移动健康应用",
-      "description": "集成健康监测、运动追踪和饮食建议的全方位健康管理应用。",
-      "image": "/images/projects/project4.jpg",
-      "tags": ["移动应用", "健康科技", "AI"],
-      "link": "/projects/health-app"
+      "id": "winuc-eu",
+      "title": "WinucEU",
+      "description": "一个简易在线编程刷题软件，提供多种编程语言支持和丰富的题库，帮助开发者提升编程技能。",
+      "image": "/images/projects/winuc-eu.jpg",
+      "tags": ["编程学习", "在线教育", "技能提升"],
+      "link": "/projects/winuc-eu"
     }
   ]
 } 

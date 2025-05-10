@@ -1,47 +1,47 @@
 {
   "members": [
     {
-      "id": "member1",
-      "name": "张三",
-      "role": "创始人 & CEO",
-      "bio": "十年互联网产品经验，曾任职于多家知名科技公司",
-      "avatar": "/images/team/member1.jpg",
+      "id": "alan",
+      "name": "Alan Huang",
+      "role": "前端开发、设计、联合创始人",
+      "bio": "专注于前端开发和用户体验设计，致力于创造美观且高效的用户界面",
+      "avatar": "/images/team/alan.jpg",
       "socialLinks": {
-        "github": "https://github.com/zhangsan",
-        "linkedin": "https://linkedin.com/in/zhangsan"
+        "github": "https://github.com/alanhuang",
+        "linkedin": "https://linkedin.com/in/alanhuang"
       }
     },
     {
-      "id": "member2",
-      "name": "李四",
-      "role": "首席技术官",
-      "bio": "全栈开发工程师，专注于Web技术和云服务架构",
-      "avatar": "/images/team/member2.jpg",
+      "id": "kjbk",
+      "name": "Kjbk Shuyi",
+      "role": "全栈开发、创始人",
+      "bio": "WINUC的创始人，精通全栈开发技术，擅长构建可扩展的应用架构",
+      "avatar": "/images/team/kjbk.jpg",
       "socialLinks": {
-        "github": "https://github.com/lisi",
-        "linkedin": "https://linkedin.com/in/lisi"
+        "github": "https://github.com/kjbkshuyi",
+        "linkedin": "https://linkedin.com/in/kjbkshuyi"
       }
     },
     {
-      "id": "member3",
-      "name": "王五",
-      "role": "UI/UX 设计师",
-      "bio": "拥有丰富的用户界面设计经验，注重用户体验和交互设计",
-      "avatar": "/images/team/member3.jpg",
+      "id": "mcblocker",
+      "name": "MC_Blocker",
+      "role": "吉祥物",
+      "bio": "WINUC团队的吉祥物，为团队带来欢乐和创意灵感",
+      "avatar": "/images/team/mcblocker.jpg",
       "socialLinks": {
-        "dribbble": "https://dribbble.com/wangwu",
-        "linkedin": "https://linkedin.com/in/wangwu"
+        "twitter": "https://twitter.com/mcblocker",
+        "instagram": "https://instagram.com/mcblocker"
       }
     },
     {
-      "id": "member4",
-      "name": "赵六",
-      "role": "市场总监",
-      "bio": "资深市场营销专家，擅长品牌策划和市场拓展",
-      "avatar": "/images/team/member4.jpg",
+      "id": "young",
+      "name": "Young",
+      "role": "联合创始人",
+      "bio": "WINUC的联合创始人，负责战略规划和业务发展",
+      "avatar": "/images/team/young.jpg",
       "socialLinks": {
-        "twitter": "https://twitter.com/zhaoliu",
-        "linkedin": "https://linkedin.com/in/zhaoliu"
+        "twitter": "https://twitter.com/youngwinuc",
+        "linkedin": "https://linkedin.com/in/youngwinuc"
       }
     }
   ]

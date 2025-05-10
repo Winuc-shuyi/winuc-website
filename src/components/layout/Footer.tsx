@@ -48,7 +48,6 @@ export default function Footer() {
             </h3>
             <ul className="space-y-2 text-gray-600 dark:text-gray-400">
               <li>邮箱: {siteConfig.contact.email}</li>
-              <li>电话: {siteConfig.contact.phone}</li>
               <li>地址: {siteConfig.contact.address}</li>
             </ul>
           </div>

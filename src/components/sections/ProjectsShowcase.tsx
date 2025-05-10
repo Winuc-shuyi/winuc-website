@@ -8,25 +8,25 @@ import Button from '@/components/ui/Button'
 export default function ProjectsShowcase() {
   const featuredProjects = [
     {
-      id: 'featured-1',
-      title: '智能数据分析平台',
-      description: '结合人工智能和大数据技术，为企业提供全方位的数据分析解决方案。通过直观的可视化界面，帮助管理者洞察业务趋势，做出数据驱动的决策。',
-      image: '/images/projects/featured-1.jpg',
+      id: 'winuc-chat',
+      title: 'WinucChat',
+      description: '一款简单但功能强大的即时通讯软件，支持一对一聊天和群组功能，提供安全加密的通信方式。通过优化的用户界面，确保用户能够轻松地与朋友、家人和同事保持联系。',
+      image: '/images/projects/winuc-chat',
       stats: [
-        { value: '300%', label: '决策效率提升' },
-        { value: '65%', label: '数据处理时间减少' },
-        { value: '10+', label: '行业应用场景' },
+        { value: '端到端', label: '安全加密' },
+        { value: '99.9%', label: '服务可用性' },
+        { value: '多平台', label: '支持与兼容' },
       ]
     },
     {
-      id: 'featured-2',
-      title: '云端协作工具',
-      description: '为远程团队设计的一站式协作平台，集成了文档管理、项目追踪、视频会议等功能。无缝连接的工作流程，让团队协作更加高效流畅。',
-      image: '/images/projects/featured-2.jpg',
+      id: 'winuc-store',
+      title: 'WinucStore',
+      description: '一个简易但功能完善的商店平台，支持用户浏览、购买商品，自带PAY支付系统，提供安全便捷的购物体验。集成了库存管理、订单追踪和客户服务等功能，满足各类商家的需求。',
+      image: '/images/projects/winuc-store',
       stats: [
-        { value: '200+', label: '企业用户' },
-        { value: '40%', label: '沟通成本降低' },
-        { value: '24/7', label: '全天候支持' },
+        { value: '安全', label: 'PAY支付系统' },
+        { value: '便捷', label: '购物流程' },
+        { value: '全面', label: '商家解决方案' },
       ]
     }
   ]
@@ -36,7 +36,7 @@ export default function ProjectsShowcase() {
       <div className="text-center mb-20">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">项目亮点</h2>
         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-          这些项目展示了我们团队的技术实力和创新能力，为客户创造了显著的商业价值
+          这些项目展示了我们团队的技术实力和创新能力，为用户提供实用且高效的解决方案
         </p>
       </div>
 
@@ -55,7 +55,7 @@ export default function ProjectsShowcase() {
             >
               <div className="relative h-[350px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src={`${project.image}.svg`}
+                  src={`${project.image}.jpg.svg`}
                   alt={project.title}
                   fill
                   className="object-cover"

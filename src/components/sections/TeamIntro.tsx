@@ -18,16 +18,16 @@ export default function TeamIntro() {
             我们的<span className="text-primary">愿景</span>与<span className="text-primary">使命</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg">
-            WINUC团队成立于2020年，由一群充满激情和创造力的技术专家组成。我们致力于通过创新的数字解决方案，帮助企业和组织在数字化转型过程中取得成功。
+            WINUC团队由一群充满激情和创造力的技术专家组成。我们致力于通过创新的数字解决方案，帮助企业和组织在数字化转型过程中取得成功。
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-6 text-lg">
             我们的愿景是成为行业领先的技术解决方案提供商，通过卓越的产品和服务，为客户创造持久的价值。
           </p>
           <div className="grid grid-cols-2 gap-6 mb-8">
             {[
-              { number: '4+', label: '年专业经验' },
-              { number: '50+', label: '成功项目' },
-              { number: '20+', label: '企业客户' },
+              { number: '3+', label: '年专业经验' },
+              { number: '30+', label: '成功项目' },
+              { number: '15+', label: '企业客户' },
               { number: '100%', label: '客户满意度' }
             ].map((stat, index) => (
               <motion.div 
@@ -52,7 +52,7 @@ export default function TeamIntro() {
         >
           <div className="relative h-[500px] rounded-lg overflow-hidden shadow-xl">
             <Image
-              src="/images/team/team-photo.jpg"
+              src="/images/team/team-photo.jpg.svg"
               alt="WINUC团队照片"
               fill
               className="object-cover"

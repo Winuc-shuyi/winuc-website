@@ -1,9 +1,10 @@
 "use client"
 
 import { useEffect, useState } from 'react'
-import { motion } from 'framer-motion'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import Button from '@/components/ui/Button'
+import { FadeIn, FadeInLeft, FadeInRight } from '@/components/animations'
 
 export default function Hero() {
   const [isLoaded, setIsLoaded] = useState(false)
@@ -12,32 +13,12 @@ export default function Hero() {
     setIsLoaded(true)
   }, [])
 
-  const containerVariants = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.1,
-        delayChildren: 0.3
-      }
-    }
-  }
-
-  const itemVariants = {
-    hidden: { y: 20, opacity: 0 },
-    visible: {
-      y: 0,
-      opacity: 1,
-      transition: { type: 'spring', stiffness: 100 }
-    }
-  }
-
   const floatingAnimation = {
     y: [0, -15, 0],
     transition: {
       duration: 6,
       repeat: Infinity,
-      repeatType: "mirror",
+      repeatType: "mirror" as const,
       ease: "easeInOut"
     }
   }
@@ -66,60 +47,45 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-24">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          <motion.div 
+          <FadeInLeft 
             className="w-full lg:w-1/2 z-10"
-            initial="hidden"
-            animate={isLoaded ? "visible" : "hidden"}
-            variants={containerVariants}
+            delay={0.2}
+            duration={0.8}
           >
-            <motion.h1 
-              className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6"
-              variants={itemVariants}
-            >
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-gray-900 dark:text-white mb-6">
               <span className="block">欢迎来到</span>
               <span className="text-primary">WINUC</span>
               <span className="block text-2xl md:text-3xl mt-2 font-medium">创新团队，卓越成果</span>
-            </motion.h1>
+            </h1>
             
-            <motion.p 
-              className="text-lg md:text-xl mb-10 text-gray-600 dark:text-gray-300"
-              variants={itemVariants}
-            >
-              我们专注于打造现代化的数字体验和解决方案，帮助客户实现业务价值最大化。通过创新技术和专业团队，为您提供顶尖的服务。
-            </motion.p>
+            <FadeIn delay={0.5} duration={0.8}>
+              <p className="text-lg md:text-xl mb-10 text-gray-600 dark:text-gray-300">
+                我们专注于打造现代化的数字体验和解决方案，帮助客户实现业务价值最大化。通过创新技术和专业团队，为您提供顶尖的服务。
+              </p>
+            </FadeIn>
             
-            <motion.div 
-              className="flex flex-wrap gap-4"
-              variants={itemVariants}
-            >
-              <Button href="/about" variant="primary">
-                了解我们
-              </Button>
-              <Button href="/projects" variant="outline">
-                查看项目
-              </Button>
-            </motion.div>
-          </motion.div>
+            <FadeIn delay={0.7} duration={0.8}>
+              <div className="flex flex-wrap gap-4">
+                <Button href="/about" variant="primary">
+                  了解我们
+                </Button>
+                <Button href="/projects" variant="outline">
+                  查看项目
+                </Button>
+              </div>
+            </FadeIn>
+          </FadeInLeft>
           
-          <motion.div 
+          <FadeInRight 
             className="w-full lg:w-1/2 flex justify-center z-10"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            delay={0.3}
+            duration={0.8}
           >
             <div className="relative w-full h-[400px] max-w-lg">
               {/* 主图形元素 */}
               <motion.div
                 className="absolute inset-0 flex items-center justify-center"
-                animate={{
-                  y: [0, -15, 0],
-                  transition: {
-                    duration: 6,
-                    repeat: Infinity,
-                    repeatType: "mirror",
-                    ease: "easeInOut"
-                  }
-                }}
+                animate={floatingAnimation}
               >
                 <div className="relative w-[80%] h-[80%] bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
                   <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-50 dark:from-primary-900 dark:to-primary-800 flex items-center justify-center">
@@ -157,7 +123,7 @@ export default function Hero() {
                 }}
               />
             </div>
-          </motion.div>
+          </FadeInRight>
         </div>
       </div>
     </section>
