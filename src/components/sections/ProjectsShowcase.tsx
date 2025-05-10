@@ -55,7 +55,7 @@ export default function ProjectsShowcase() {
             >
               <div className="relative h-[350px] md:h-[400px] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src={`${project.image}.jpg.svg`}
+                  src={`${project.image}.svg`}
                   alt={project.title}
                   fill
                   className="object-cover"

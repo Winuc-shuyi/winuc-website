@@ -40,9 +40,9 @@ export default function ProjectDetailPage({ params }: ProjectDetailPageProps) {
       completed: "2023年10月"
     },
     gallery: [
-      "/images/projects/gallery1.jpg.svg",
-      "/images/projects/gallery2.jpg.svg",
-      "/images/projects/gallery3.jpg.svg"
+      "/images/projects/gallery1.svg",
+      "/images/projects/gallery2.svg",
+      "/images/projects/gallery3.svg"
     ]
   }
   

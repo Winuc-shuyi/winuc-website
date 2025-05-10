@@ -4,7 +4,7 @@
       "id": "winuc-chat",
       "title": "WinucChat",
       "description": "一款简单的即时通讯软件，支持一对一聊天和群组功能，提供安全加密的通信方式。",
-      "image": "/images/projects/winuc-chat.jpg",
+      "image": "/images/projects/winuc-chat",
       "tags": ["即时通讯", "社交", "加密"],
       "link": "/projects/winuc-chat"
     },
@@ -12,7 +12,7 @@
       "id": "winuc-store",
       "title": "WinucStore",
       "description": "一个简易的商店平台，支持用户浏览、购买商品，自带PAY支付系统，提供安全便捷的购物体验。",
-      "image": "/images/projects/winuc-store.jpg",
+      "image": "/images/projects/winuc-store",
       "tags": ["电商", "支付系统", "购物"],
       "link": "/projects/winuc-store"
     },
@@ -20,7 +20,7 @@
       "id": "winuc-eu",
       "title": "WinucEU",
       "description": "一个简易在线编程刷题软件，提供多种编程语言支持和丰富的题库，帮助开发者提升编程技能。",
-      "image": "/images/projects/winuc-eu.jpg",
+      "image": "/images/projects/winuc-eu",
       "tags": ["编程学习", "在线教育", "技能提升"],
       "link": "/projects/winuc-eu"
     }
